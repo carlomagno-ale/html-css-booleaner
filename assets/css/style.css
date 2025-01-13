@@ -1,6 +1,14 @@
-#site_header
-{
-  background-color: var(--cv-light);
-  text-align: center;
-  border-bottom: 4px solid var(--cv-accent);
+:root {
+  --color01: #4ea0ff;
+
+}
+
+#site_header {
+  background-image: ("./assets/img/pattern.png");
+  background-repeat: repeat-x;
+  background-color: var(--color01);
+  height: 100px;
+  margin-top: 0;
+  margin-bottom: 0;
+
 }
