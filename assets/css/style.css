@@ -9,12 +9,11 @@
   margin: 0;
 }
 
-
 #site_header {
 
   background-image: url("../img/pattern.png");
   background-repeat: repeat-x;
-  background-size: 25%;
+  background-size: 36%;
   background-color: var(--color01);
   height: 100px;
   margin-top: 0;
@@ -33,8 +32,6 @@
 #titolo-giornale {
 
   font-size: 40px;
-  font-family: 'Times New Roman', Times, serif;
-
 
 }
 
@@ -48,12 +45,12 @@
 #author {
 
   color: var(--color02);
-  font-size: 15px;
-  
+  font-size: 95%;
+  font-weight: bold;
 
 }
 
-.author-name {
+#author-name {
 
   color: var(--color03);
 
@@ -63,5 +60,24 @@
 
   color: var(--color02);
   font-size: 12px;
+
+}
+
+#photos {
+
+  margin-top: 24px;
+
+}
+
+#photo-caption {
+
+  font-size: 12px;
+
+}
+
+.content text {
+
+  font-size: 15px;
+  margin-top: 29px;
 
 }
