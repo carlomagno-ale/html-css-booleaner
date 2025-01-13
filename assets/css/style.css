@@ -16,8 +16,7 @@
   background-size: 36%;
   background-color: var(--color01);
   height: 100px;
-  margin-top: 0;
-  margin-bottom: 0;
+
 
 }
 
@@ -75,9 +74,15 @@
 
 }
 
-.content text {
+.content-text {
 
-  font-size: 15px;
-  margin-top: 29px;
+  margin-top: 24px;
+
+}
+
+.list {
+
+  margin-top: 32px;
+  margin-left: -26px;
 
 }
