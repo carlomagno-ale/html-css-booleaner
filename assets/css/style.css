@@ -1,0 +1,6 @@
+#site_header
+{
+  background-color: var(--cv-light);
+  text-align: center;
+  border-bottom: 4px solid var(--cv-accent);
+}
