@@ -1,10 +1,14 @@
 :root {
   --color01: #4ea0ff;
+  --color02: #824205;
 
 }
 
+
+
 #site_header {
-  background-image: ("./assets/img/pattern.png");
+
+  background-image: url("./assets/img/pattern.png");
   background-repeat: repeat-x;
   background-color: var(--color01);
   height: 100px;
