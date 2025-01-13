@@ -1,18 +1,67 @@
 :root {
   --color01: #4ea0ff;
-  --color02: #824205;
-
+  --color02: #808080;
+  --color03: #36b1e7;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
 
 
 #site_header {
 
-  background-image: url("./assets/img/pattern.png");
+  background-image: url("../img/pattern.png");
   background-repeat: repeat-x;
+  background-size: 25%;
   background-color: var(--color01);
   height: 100px;
   margin-top: 0;
   margin-bottom: 0;
+
+}
+
+#logo {
+
+  height: 42px;
+  margin-top: 41px;
+  margin-left: 8px;
+
+}
+
+#titolo-giornale {
+
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.container {
+
+  margin-left: 8px;
+  margin-top: 26px;
+
+}
+
+#author {
+
+  color: var(--color02);
+  font-size: 15px;
+  
+
+}
+
+.author-name {
+
+  color: var(--color03);
+
+}
+
+.date {
+
+  color: var(--color02);
+  font-size: 12px;
 
 }
